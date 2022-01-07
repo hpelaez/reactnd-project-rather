@@ -1,5 +1,5 @@
 {
-  "name": "webauto-react",
+  "name": "my-projet-rather",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,10 +12,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "react": "^16.14",
-    "react-dom": "^16.14",
-    "react-router-dom": "^4.3.1"
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "bootstrap": "^5.1.0",
+    "formik": "^2.2.9",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0-beta.6",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "yup": "^0.32.9"
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
