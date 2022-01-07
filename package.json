@@ -1,16 +1,7 @@
 {
-  "name": "my-projet-rather",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "webpack && node build/server.js",
-    "start": "node src/server.js",
-    "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "mon-projet",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -27,15 +18,28 @@
     "redux-thunk": "^2.3.0",
     "yup": "^0.32.9"
   },
-  "devDependencies": {
-    "@babel/core": "^7.14.3",
-    "@babel/polyfill": "^7.12.1",
-    "@babel/preset-env": "^7.14.2",
-    "@babel/preset-react": "^7.13.13",
-    "babel-loader": "^8.2.2",
-    "html-webpack-plugin": "^5.3.1",
-    "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-node-externals": "^3.0.0"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
